@@ -1,0 +1,15 @@
+{
+  "name": "openaiplayground",
+  "version": "1.0.0",
+  "description": "Fun with Open AI Api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yofret Rios",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
