@@ -5,15 +5,18 @@ const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-(async function createCompletion() {
-  const openai = new OpenAIApi(configuration);
-  const response = await openai.createCompletion({
-    model: "text-davinci-003",
-    prompt: "You are now a Wine Expert, Which wine",
-    temperature: 0,
-    max_tokens: 1000,
-  });
+const openai = new OpenAIApi(configuration);
 
-  console.log(response.data);
-})();
+// (async function createCompletion() {
+  
+//   const response = await openai.createCompletion({
+//     model: "text-davinci-003",
+//     prompt: "You are now a Wine Expert, Make a List of wines brand under $20 that pairs well with Carbonara, Include the URL of the product and price, only include product from Firstleaf.com",
+//     temperature: 0,
+//     max_tokens: 1000,
+//   });
 
+//   console.log(response.data);
+// })();
+
+export { openai }; 
