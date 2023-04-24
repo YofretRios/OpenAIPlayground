@@ -1,7 +1,7 @@
 import { openai } from "./index.js";
 
 /**
- * Function to grab the training file and kickstart the fine tuning process
+ * 3 - Function to grab the training file and kickstart the fine tuning process
  */
 (async function fineTune() {
   try {

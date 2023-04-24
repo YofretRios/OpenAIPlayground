@@ -2,7 +2,7 @@ import { openai } from "./index.js";
 import fs from "fs";
 
 /**
- * Upload prepared data for fine tuning, data was prepared with the following command from OpenAI CLI: `openai tools fine_tunes.prepare_data -f ./training_data.jsonl`
+ * 2 - Upload prepared data for fine tuning, data was prepared with the following command from OpenAI CLI: `openai tools fine_tunes.prepare_data -f ./training_data.jsonl`
  * This process only uploads the file to be fine-tuned
  */
 (async function upload() {

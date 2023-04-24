@@ -1,7 +1,7 @@
 import { openai } from "./index.js";
 
 /**
- * List fine tunings
+ * 4 - List fine tunings
  */
 (async function fineTune() {
   try {
