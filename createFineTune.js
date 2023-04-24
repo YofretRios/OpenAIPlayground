@@ -6,7 +6,8 @@ import { openai } from "./index.js";
 (async function fineTune() {
   try {
     const response = await openai.createFineTune({
-      training_file: "file-eiZPFSK4IZ4GpKh4bG2IrDFk",
+      training_file: "file-jt7tfKpQYv5MoWjXNGURGB6E",
+      validation_file: "file-apnxwriOGUp9hTVozvwJQYrf",
       model: "davinci",
     });
 
